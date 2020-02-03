@@ -8,5 +8,5 @@ BASE_HOA = {
 def add_character(show, name)
   # Write your implementation here
   # Should return the array of the 'show' argument
-  add_character = hash[show] << name
+  add_character = BASE_HOA[show].append(name)
 end
