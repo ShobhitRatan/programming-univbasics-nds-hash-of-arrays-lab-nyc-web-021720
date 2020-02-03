@@ -11,8 +11,8 @@ def add_character(show, name)
   show = ["Alvin", "Simon", "Theodore"]
   add_character = show.append(name)
   return show
-  add_character = BASE_HOA [:third_earthers].append(name)
+  BASE_HOA [:third_earthers][3] = name
   return BASE_HOA [:third_earthers]
-  add_character = BASE_HOA [:jetsons].append(name)
+  BASE_HOA [:jetsons] [4] = name
   return BASE_HOA [:jetsons]
 end
