@@ -8,7 +8,8 @@ BASE_HOA = {
 def add_character(show, name)
   # Write your implementation here
   # Should return the array of the 'show' argument
-  show = ["Alvin", "Simon", "Theodore"]
+  show = [name]
   add_character = show.append(name)
   return show
+
 end
